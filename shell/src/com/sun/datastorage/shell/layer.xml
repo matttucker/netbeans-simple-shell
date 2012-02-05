@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE filesystem PUBLIC "-//NetBeans//DTD Filesystem 1.1//EN" "http://www.netbeans.org/dtds/filesystem-1_1.dtd">
+<filesystem>
+    <folder name="Editors">
+
+        <folder name="text">
+            <folder name="x-shell">
+                <attr name="SystemFileSystem.localizingBundle" stringvalue="com.sun.datastorage.shell.Bundle"/>
+                <file name="EditorKit.instance">
+                    <attr name="instanceClass" stringvalue="com.sun.datastorage.shell.ShellEditorKit"/>
+                </file>
+                <file name="com-sun-datastorage-shell-highlighting-ShellHighlightsLayerFactory.instance"/>
+                <file name="com-sun-datastorage-shell-command-ShellCommander.instance"/>
+                <file name="com-sun-datastorage-shell-options-ShellGeneralOptionsPanel.instance"/>
+                <folder name="CompletionProviders">
+                    <file name="com-sun-datastorage-shell-completion-ShellCompletionProvider.instance"/>
+                    <attr name="instanceClass" stringvalue="javax.swing.JSeparator"/>
+
+                    <file name="ShellCommandCompletionProvider.instance">
+                        <attr name="instanceCreate" methodvalue="com.sun.datastorage.shell.completion.CommandCompletionProvider.create"/>
+                        <attr name="CommanderClass" stringvalue="com.sun.datastorage.shell.command.ShellCommander"/>
+                    </file>
+
+                </folder>
+                <folder name="Keybindings">
+                    <folder name="NetBeans">
+                        <folder name="Defaults">
+                            <file name="keybindings.xml" url="resources/keybindings.xml"/>
+                        </folder>
+                    </folder>
+                </folder>
+
+                <folder name="FontsColors">
+                    <folder name="NetBeans">
+                        <folder name="Defaults">
+                            <file name="com-sun-datastorage-shell-token-colorings.xml" url="resources/NetBeans-Shell-fontsColors.xml">
+                            </file>
+                        </folder>
+                    </folder>
+
+                    <folder name="CityLights">
+                        <folder name="Defaults">
+                            <file name="com-sun-datastorage-shell-token-colorings.xml" url="resources/CityLights-Shell-fontsColors.xml">
+                            </file>
+                        </folder>
+                    </folder>
+                </folder>
+
+
+                <file name="language.nbs" url="language.nbs"/>
+            </folder>
+        </folder>
+    </folder>
+    <folder name="OptionsDialog">
+        <folder name="PreviewExamples">
+            <folder name="text">
+                <file name="x-shell" url="resources/ShellExample"/>
+            </folder>
+        </folder>
+    </folder>
+    <folder name="Actions">
+        <folder name="Window">
+            <file name="com-sun-datastorage-shell-ui-ShellAction.instance"/>
+            <file name="com-sun-datastorage-shell-ui-ScriptFunctionsTopComponentAction.instance"/>
+        </folder>
+    </folder>
+    <folder name="Menu">
+        <folder name="Window">
+            <folder name="Shell">
+                <file name="ScriptFunctionsTopComponentAction.shadow">
+                    <attr name="originalFile" stringvalue="Actions/Window/com-sun-datastorage-shell-ui-ScriptFunctionsTopComponentAction.instance"/>
+                </file>
+                <file name="ShellAction.shadow">
+                    <attr name="originalFile" stringvalue="Actions/Window/com-sun-datastorage-shell-ui-ShellAction.instance"/>
+                </file>
+            </folder>
+        </folder>
+    </folder>
+    <folder name="Navigator">
+        <folder name="Panels">
+            <folder name="text">
+                <folder name="x-shell">
+                    <file name="org-netbeans-modules-languages-features-LanguagesNavigator.instance"/>
+                </folder>
+            </folder>
+        </folder>
+    </folder>
+    <folder name="OptionsDialog">
+        <file name="com-sun-datastorage-shell-options-ShellOptionsCategory.instance"/>
+    </folder>
+    <folder name="Services">
+        <folder name="JavaHelp">
+            <file name="shell-helpset.xml" url="shell-helpset.xml">
+                <attr name="position" stringvalue="3907"/>
+            </file>
+        </folder>
+        <folder name="MIMEResolver">
+            <file name="text-x-shell-mime-resolver.xml" url="text-x-shell-mime-resolver.xml"/>
+        </folder>
+    </folder>
+    <folder name="Shortcuts">
+    </folder>
+    <folder name="Toolbars">
+        <file name="Standard.xml" url="Standard.xml"/>
+    </folder>
+    <folder name="Windows2">
+    <folder name="Components">
+        <file name="ScriptFunctionsTopComponent.settings" url="ui/ScriptFunctionsTopComponentSettings.xml"/>
+        <file name="ShellTopComponent.settings" url="ui/ShellTopComponentSettings.xml"/>
+    </folder>
+    <folder name="Modes">
+        <folder name="editor">
+            <file name="ShellTopComponent.wstcref" url="ui/ShellTopComponentWstcref.xml"/>
+        </folder>
+        <folder name="navigator">
+            <file name="navigatorTC.wstcref_hidden"/>
+        </folder>
+        <folder name="output">
+            <file name="ScriptFunctionsTopComponent.wstcref" url="ui/ScriptFunctionsTopComponentWstcref.xml"/>
+        </folder>
+        <folder name="properties"/>
+        </folder>
+        <file name="WindowManager.wswmgr" url="WindowManager.wswmgr"/>
+    </folder>
+</filesystem>

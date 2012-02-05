@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE index PUBLIC "-//Sun Microsystems Inc.//DTD JavaHelp Index Version 2.0//EN" "http://java.sun.com/products/javahelp/index_2_0.dtd">
+<index version="2.0">
+    <indexitem text="About Shell" target="com.sun.datastorage.shell.about"/>
+    <indexitem text="ls" target="com.sun.datastorage.shell.command.ls"/>
+    <indexitem text="help" target="com.sun.datastorage.shell.command.help"/>
+    <indexitem text="ping" target="com.sun.datastorage.shell.command.ping"/>
+    <indexitem text="rm" target="com.sun.datastorage.shell.command.rm"/>
+
+</index>

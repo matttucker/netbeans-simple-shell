@@ -1,0 +1,2 @@
+Simple Shell is a NetBeans plugin that provides a command-line interface to your custom Java commands. Simple Shell supports command completion, history, path management, a built-in script engine, server support, and ActiveX support. Please note that Simple Shell does not provide the extensive functionality of standard Unix shells such as bash, tcsh, and others.
+

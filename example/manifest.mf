@@ -1,0 +1,7 @@
+Manifest-Version: 1.0
+OpenIDE-Module: com.sun.datastorage.shell.example
+OpenIDE-Module-Layer: com/sun/datastorage/shell/example/layer.xml
+OpenIDE-Module-Localizing-Bundle: com/sun/datastorage/shell/example/Bundle.properties
+OpenIDE-Module-Requires: org.netbeans.api.javahelp.Help
+OpenIDE-Module-Specification-Version: 1.0
+

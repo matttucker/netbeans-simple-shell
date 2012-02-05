@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE filesystem PUBLIC "-//NetBeans//DTD Filesystem 1.1//EN" "http://www.netbeans.org/dtds/filesystem-1_1.dtd">
+<filesystem>
+     <folder name="Actions">
+        <folder name="Window">
+            <file name="com-sun-datastorage-shell-server-ServerAction.instance"/>
+        </folder>
+    </folder>
+    
+     <folder name="Menu">
+        <folder name="Window">
+            <folder name="Shell">
+                <file name="ServerAction.shadow">
+                    <attr name="originalFile" stringvalue="Actions/Window/com-sun-datastorage-shell-server-ServerAction.instance"/>
+                </file>
+            </folder>
+        </folder>
+    </folder>
+    <folder name="Windows2">
+        <folder name="Components">
+            <file name="ServerTopComponent.settings" url="ServerTopComponentSettings.xml"/>
+        </folder>
+        <folder name="Modes">
+            <folder name="output">
+                <file name="ServerTopComponent.wstcref" url="ServerTopComponentWstcref.xml"/>
+            </folder>
+        </folder>
+    </folder>
+    
+        
+    <folder name="Editors">
+        <folder name="text"> 
+            <folder name="x-shell">
+
+                <!--<file name="com-sun-datastorage-shell-server-options-ServerOptionsPanel.instance"/>-->
+
+            </folder>
+        </folder>
+    </folder>
+</filesystem>

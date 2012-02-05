@@ -1,0 +1,6 @@
+Manifest-Version: 1.0
+OpenIDE-Module: com.sun.datastorage.shell.server
+OpenIDE-Module-Layer: com/sun/datastorage/shell/server/layer.xml
+OpenIDE-Module-Localizing-Bundle: com/sun/datastorage/shell/server/Bundle.properties
+OpenIDE-Module-Specification-Version: 1.0.3
+

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE filesystem PUBLIC "-//NetBeans//DTD Filesystem 1.1//EN" "http://www.netbeans.org/dtds/filesystem-1_1.dtd">
+<filesystem>
+    <folder name="Editors">
+
+        <folder name="text">
+            <folder name="x-shell">
+
+                <file name="com-sun-datastorage-shell-example-AndroidCommander.instance"/>
+
+                <folder name="CompletionProviders">
+                    <file name="AndroidCommandCompletionProvider.instance">
+                        <attr name="instanceCreate" methodvalue="com.sun.datastorage.shell.completion.CommandCompletionProvider.create"/>
+                        <attr name="CommanderClass" stringvalue="com.sun.datastorage.shell.example.AndroidCommander"/>
+                    </file>
+                </folder>
+            </folder>
+        </folder>
+    </folder>
+    <folder name="Services">
+        <folder name="JavaHelp">
+            <file name="example-helpset.xml" url="example-helpset.xml">
+                <attr name="position" intvalue="3694"/>
+            </file>
+        </folder>
+    </folder>
+</filesystem>

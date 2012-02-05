@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE toc PUBLIC "-//Sun Microsystems Inc.//DTD JavaHelp TOC Version 2.0//EN" "http://java.sun.com/products/javahelp/toc_2_0.dtd">
+<toc version="2.0">
+    <tocitem text="Shell">
+        <tocitem text="About Shell" target="com.sun.datastorage.shell.about"/>
+        <tocitem text="Commands">
+            <tocitem text="cd" target="com.sun.datastorage.shell.command.cd"/>
+            <tocitem text="edit" target="com.sun.datastorage.shell.command.edit"/>
+            <tocitem text="evalf" target="com.sun.datastorage.shell.command.evalf"/>
+            <tocitem text="help" target="com.sun.datastorage.shell.command.help"/>
+            <tocitem text="ls" target="com.sun.datastorage.shell.command.ls"/>            
+            <tocitem text="path" target="com.sun.datastorage.shell.command.path"/>
+            <tocitem text="ping" target="com.sun.datastorage.shell.command.ping"/>
+            <tocitem text="rm" target="com.sun.datastorage.shell.command.rm"/>
+            <tocitem text="which" target="com.sun.datastorage.shell.command.which"/>
+            <tocitem text="who" target="com.sun.datastorage.shell.command.who"/>
+        </tocitem>
+    </tocitem>
+</toc>

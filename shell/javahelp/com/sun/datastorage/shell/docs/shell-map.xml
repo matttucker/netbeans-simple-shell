@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//Sun Microsystems Inc.//DTD JavaHelp Map Version 2.0//EN" "http://java.sun.com/products/javahelp/map_2_0.dtd">
+<map version="2.0">
+    <mapID target="com.sun.datastorage.shell.about" url="shell-about.html"/>
+    <mapID target="com.sun.datastorage.shell.command.cd" url="shell-command-cd.html"/>
+    <mapID target="com.sun.datastorage.shell.command.edit" url="shell-command-edit.html"/>
+    <mapID target="com.sun.datastorage.shell.command.evalf" url="shell-command-evalf.html"/>
+    <mapID target="com.sun.datastorage.shell.command.help" url="shell-command-help.html"/>
+    <mapID target="com.sun.datastorage.shell.command.ls" url="shell-command-ls.html"/>
+    <mapID target="com.sun.datastorage.shell.command.path" url="shell-command-path.html"/>
+    <mapID target="com.sun.datastorage.shell.command.ping" url="shell-command-ping.html"/>
+    <mapID target="com.sun.datastorage.shell.command.rm" url="shell-command-rm.html"/>
+    <mapID target="com.sun.datastorage.shell.command.which" url="shell-command-which.html"/>
+    <mapID target="com.sun.datastorage.shell.command.who" url="shell-command-who.html"/>
+</map>
